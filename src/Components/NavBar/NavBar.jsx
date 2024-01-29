@@ -42,6 +42,7 @@ const NavBar = () => {
         <Theme />
         <div className="navbar-end">
           <a className="btn btn-accent">
+            {/*  */}
             <CartWidget />
           </a>
         </div>
