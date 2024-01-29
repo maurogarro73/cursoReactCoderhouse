@@ -1,4 +1,5 @@
 import CartWidget from '../CartWidget/CartWidget';
+import Theme from '../Theme/Theme';
 
 const NavBar = () => {
   return (
@@ -38,6 +39,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
+        <Theme />
         <div className="navbar-end">
           <a className="btn">
             <CartWidget />
