@@ -22,7 +22,7 @@ function ItemListContainer({ greeting }) {
       <div className="flex justify-center items-center">
         <ItemList products={products} />
       </div>
-      <ItemCount stock={5} initial={1} />
+      {/* <ItemCount stock={5} initial={1} /> */}
     </div>
   );
 }
