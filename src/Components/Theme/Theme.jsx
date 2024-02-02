@@ -3,7 +3,7 @@ const Theme = () => {
     <div>
       <label className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
-        <input type="checkbox" className="theme-controller" value="garden" />
+        <input type="checkbox" className="theme-controller" value="synthwave" />
 
         {/* sun icon */}
         <svg className="swap-on fill-current w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
