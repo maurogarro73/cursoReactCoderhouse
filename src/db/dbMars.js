@@ -1,4 +1,4 @@
-const terrenos_marte = [
+const DB_MARTERRA = [
   {
     id: 1,
     name: 'Valles Marineris',
@@ -7,7 +7,8 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 500000,
     stock: 5,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id1-main.png',
+    naturalImg: 'img/terrenos/id1-natural.png',
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ const terrenos_marte = [
     category: 'Montañoso',
     price: 800000,
     stock: 3,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id2-main.png',
+    naturalImg: 'img/terrenos/id2-natural.png',
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ const terrenos_marte = [
     category: 'Cráter',
     price: 450000,
     stock: 7,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id3-main.png',
+    naturalImg: 'img/terrenos/id3-natural.png',
   },
   {
     id: 4,
@@ -37,7 +40,8 @@ const terrenos_marte = [
     category: 'Polar',
     price: 600000,
     stock: 4,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id4-main.png',
+    naturalImg: 'img/terrenos/id4-natural.png',
   },
   {
     id: 5,
@@ -47,7 +51,8 @@ const terrenos_marte = [
     category: 'Plana',
     price: 300000,
     stock: 8,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id5-main.png',
+    naturalImg: 'img/terrenos/id5-natural.png',
   },
   {
     id: 6,
@@ -57,7 +62,8 @@ const terrenos_marte = [
     category: 'Vista',
     price: 350000,
     stock: 6,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id6-main.png',
+    naturalImg: 'img/terrenos/id6-natural.png',
   },
   {
     id: 7,
@@ -67,7 +73,8 @@ const terrenos_marte = [
     category: 'Vista',
     price: 375000,
     stock: 5,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id7-main.png',
+    naturalImg: 'img/terrenos/id7-natural.png',
   },
   {
     id: 8,
@@ -77,7 +84,8 @@ const terrenos_marte = [
     category: 'Montañoso',
     price: 420000,
     stock: 4,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id8-main.png',
+    naturalImg: 'img/terrenos/id8-natural.png',
   },
   {
     id: 9,
@@ -87,7 +95,8 @@ const terrenos_marte = [
     category: 'Plana',
     price: 280000,
     stock: 10,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id9-main.png',
+    naturalImg: 'img/terrenos/id9-natural.png',
   },
   {
     id: 10,
@@ -97,7 +106,8 @@ const terrenos_marte = [
     category: 'Plana',
     price: 320000,
     stock: 9,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id10-main.png',
+    naturalImg: 'img/terrenos/id10-natural.png',
   },
   {
     id: 11,
@@ -107,7 +117,8 @@ const terrenos_marte = [
     category: 'Plana',
     price: 300000,
     stock: 8,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id11-main.png',
+    naturalImg: 'img/terrenos/id11-natural.png',
   },
   {
     id: 12,
@@ -117,7 +128,8 @@ const terrenos_marte = [
     category: 'Histórico',
     price: 450000,
     stock: 7,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id12-main.png',
+    naturalImg: 'img/terrenos/id12-natural.png',
   },
   {
     id: 13,
@@ -127,7 +139,8 @@ const terrenos_marte = [
     category: 'Histórico',
     price: 475000,
     stock: 6,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id13-main.png',
+    naturalImg: 'img/terrenos/id13-natural.png',
   },
   {
     id: 14,
@@ -137,7 +150,8 @@ const terrenos_marte = [
     category: 'Histórico',
     price: 430000,
     stock: 5,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id14-main.png',
+    naturalImg: 'img/terrenos/id14-natural.png',
   },
   {
     id: 15,
@@ -147,7 +161,8 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 400000,
     stock: 6,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id15-main.png',
+    naturalImg: 'img/terrenos/id15-natural.png',
   },
   {
     id: 16,
@@ -157,7 +172,8 @@ const terrenos_marte = [
     category: 'Científico',
     price: 550000,
     stock: 4,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id16-main.png',
+    naturalImg: 'img/terrenos/id16-natural.png',
   },
   {
     id: 17,
@@ -167,7 +183,8 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 600000,
     stock: 3,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id17-main.png',
+    naturalImg: 'img/terrenos/id17-natural.png',
   },
   {
     id: 18,
@@ -177,7 +194,8 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 350000,
     stock: 7,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id18-main.png',
+    naturalImg: 'img/terrenos/id18-natural.png',
   },
   {
     id: 19,
@@ -187,7 +205,8 @@ const terrenos_marte = [
     category: 'Cráter',
     price: 480000,
     stock: 5,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id19-main.png',
+    naturalImg: 'img/terrenos/id19-natural.png',
   },
   {
     id: 20,
@@ -197,6 +216,23 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 410000,
     stock: 6,
-    imgUrl: 'img/',
+    mainImg: 'img/terrenos/id20-main.png',
+    naturalImg: 'img/terrenos/id20-natural.png',
   },
 ];
+
+export const pedirDatos = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(DB_MARTERRA);
+    }, 2000);
+  });
+};
+
+export const filterCategory = (category) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(DB_MARTERRA.filter((product) => product.category === category));
+    }, 2000);
+  });
+};
