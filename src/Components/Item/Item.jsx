@@ -4,7 +4,7 @@ const Item = ({ product }) => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
+        <img src={product.mainImg} alt="Shoes" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{product.name}</h2>
@@ -16,8 +16,8 @@ const Item = ({ product }) => {
           <div className="stat">
             <div className="stat-value">${product.price}</div>
           </div>
-          <div className="card-actions justify-end gap-0">
-            <button className="btn btn-primary">Buy Now</button>
+          <div className="card-actions justify-end gap-0 mt-2">
+            <button className="btn btn-primary">Comprar</button>
           </div>
         </div>
       </div>
