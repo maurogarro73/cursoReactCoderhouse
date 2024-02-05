@@ -7,6 +7,7 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 500000,
     stock: 5,
+    imgUrl: 'img/',
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const terrenos_marte = [
     category: 'Montañoso',
     price: 800000,
     stock: 3,
+    imgUrl: 'img/',
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const terrenos_marte = [
     category: 'Cráter',
     price: 450000,
     stock: 7,
+    imgUrl: 'img/',
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const terrenos_marte = [
     category: 'Polar',
     price: 600000,
     stock: 4,
+    imgUrl: 'img/',
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const terrenos_marte = [
     category: 'Plana',
     price: 300000,
     stock: 8,
+    imgUrl: 'img/',
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const terrenos_marte = [
     category: 'Vista',
     price: 350000,
     stock: 6,
+    imgUrl: 'img/',
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ const terrenos_marte = [
     category: 'Vista',
     price: 375000,
     stock: 5,
+    imgUrl: 'img/',
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ const terrenos_marte = [
     category: 'Montañoso',
     price: 420000,
     stock: 4,
+    imgUrl: 'img/',
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ const terrenos_marte = [
     category: 'Plana',
     price: 280000,
     stock: 10,
+    imgUrl: 'img/',
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ const terrenos_marte = [
     category: 'Plana',
     price: 320000,
     stock: 9,
+    imgUrl: 'img/',
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ const terrenos_marte = [
     category: 'Plana',
     price: 300000,
     stock: 8,
+    imgUrl: 'img/',
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ const terrenos_marte = [
     category: 'Histórico',
     price: 450000,
     stock: 7,
+    imgUrl: 'img/',
   },
   {
     id: 13,
@@ -115,6 +127,7 @@ const terrenos_marte = [
     category: 'Histórico',
     price: 475000,
     stock: 6,
+    imgUrl: 'img/',
   },
   {
     id: 14,
@@ -124,6 +137,7 @@ const terrenos_marte = [
     category: 'Histórico',
     price: 430000,
     stock: 5,
+    imgUrl: 'img/',
   },
   {
     id: 15,
@@ -133,6 +147,7 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 400000,
     stock: 6,
+    imgUrl: 'img/',
   },
   {
     id: 16,
@@ -142,6 +157,7 @@ const terrenos_marte = [
     category: 'Científico',
     price: 550000,
     stock: 4,
+    imgUrl: 'img/',
   },
   {
     id: 17,
@@ -151,6 +167,7 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 600000,
     stock: 3,
+    imgUrl: 'img/',
   },
   {
     id: 18,
@@ -160,6 +177,7 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 350000,
     stock: 7,
+    imgUrl: 'img/',
   },
   {
     id: 19,
@@ -169,6 +187,7 @@ const terrenos_marte = [
     category: 'Cráter',
     price: 480000,
     stock: 5,
+    imgUrl: 'img/',
   },
   {
     id: 20,
@@ -178,5 +197,6 @@ const terrenos_marte = [
     category: 'Geológico',
     price: 410000,
     stock: 6,
+    imgUrl: 'img/',
   },
 ];
