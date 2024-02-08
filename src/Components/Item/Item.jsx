@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Item = ({ product }) => {
   return (
@@ -17,7 +18,9 @@ const Item = ({ product }) => {
             <div className="stat-value">${product.price}</div>
           </div>
           <div className="card-actions justify-end gap-0 mt-2">
-            <button className="btn btn-primary">Comprar</button>
+            <Link to={`/item/${product.id}`} className="btn btn-primary">
+              Comprar
+            </Link>
           </div>
         </div>
       </div>

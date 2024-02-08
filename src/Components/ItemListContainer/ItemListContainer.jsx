@@ -1,21 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import loadinPlanet from '../../../public/img/planetWeb.gif';
-import { pedirDatos } from '../../db/dbMars.js';
+import { filterCategory, pedirDatos } from '../../db/dbMars.js';
 import ItemList from '../ItemList/ItemList.jsx';
+import { useParams } from 'react-router-dom';
 
 function ItemListContainer({ greeting }) {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-  console.log(products);
+  const { categoryid } = useParams();
 
   useEffect(() => {
-    pedirDatos()
-      .then((res) => {
-        setProducts(res);
-      })
-      .catch((err) => console.log(err))
-      .finally(() => setLoading(false));
-  }, []);
+    if (!categoryid) {
+      pedirDatos()
+        .then((res) => {
+          setProducts(res);
+        })
+        .catch((err) => console.log(err))
+        .finally(() => setLoading(false));
+    } else {
+      filterCategory(categoryid)
+        .then((res) => {
+          setProducts(res);
+        })
+        .catch((err) => console.log(err))
+        .finally(() => setLoading(false));
+    }
+  }, [categoryid]);
 
   return (
     <div>
@@ -33,7 +43,6 @@ function ItemListContainer({ greeting }) {
           </div>
         </>
       )}
-      {/* <ItemCount stock={5} initial={1} /> */}
     </div>
   );
 }
