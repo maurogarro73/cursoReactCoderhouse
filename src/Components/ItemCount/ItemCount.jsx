@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const ItemCount = ({ stock, initial }) => {
-  let [count, setCount] = useState(initial);
+  let [count, setCount] = useState(1);
 
   const handlerResta = () => {
     if (count > initial) {
@@ -18,16 +18,16 @@ const ItemCount = ({ stock, initial }) => {
   return (
     <div className="flex justify-center ">
       <div className="m-2">
-        <button className="btn btn-accent" onClick={handlerResta}>
+        <button className="btn btn-primary" onClick={handlerResta}>
           -
         </button>
         <span className="text-center px-5">{count}</span>
-        <button className="btn btn-accent" onClick={handlerSuma}>
+        <button className="btn btn-primary" onClick={handlerSuma}>
           +
         </button>
       </div>
       <div>
-        <button className="btn btn-accent my-2">Agregar al carrito</button>
+        <button className="btn btn-primary my-2">Agregar al carrito</button>
       </div>
     </div>
   );

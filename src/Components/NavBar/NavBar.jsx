@@ -1,3 +1,4 @@
+import { Link, NavLink } from 'react-router-dom';
 import CartWidget from '../CartWidget/CartWidget';
 import Theme from '../Theme/Theme';
 
@@ -14,36 +15,68 @@ const NavBar = () => {
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li>
-                <a>Products 1</a>
+                <NavLink to="/category/geologico">Geológico</NavLink>
               </li>
               <li>
-                <a>Products 2</a>
+                <NavLink to="/category/montañoso">Montañoso</NavLink>
               </li>
               <li>
-                <a>Product 3</a>
+                <NavLink to="/category/crater">Cráter</NavLink>
+              </li>
+              <li>
+                <NavLink to="/category/polar">Polar</NavLink>
+              </li>
+              <li>
+                <NavLink to="/category/plana">Plana</NavLink>
+              </li>
+              <li>
+                <NavLink to="/category/vista">Vista</NavLink>
+              </li>
+              <li>
+                <NavLink to="/category/historico">Histórico</NavLink>
+              </li>
+              <li>
+                <NavLink to="/category/cientifico">Científico</NavLink>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">marTerra</a>
+          <NavLink to="/" className="btn btn-ghost text-xl">
+            marTerra
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Products 1</a>
+              <NavLink to="/category/geologico">Geológico</NavLink>
             </li>
             <li>
-              <a>Products 2</a>
+              <NavLink to="/category/montañoso">Montañoso</NavLink>
             </li>
             <li>
-              <a>Product 3</a>
+              <NavLink to="/category/crater">Cráter</NavLink>
+            </li>
+            <li>
+              <NavLink to="/category/polar">Polar</NavLink>
+            </li>
+            <li>
+              <NavLink to="/category/plana">Plana</NavLink>
+            </li>
+            <li>
+              <NavLink to="/category/vista">Vista</NavLink>
+            </li>
+            <li>
+              <NavLink to="/category/historico">Histórico</NavLink>
+            </li>
+            <li>
+              <NavLink to="/category/cientifico">Científico</NavLink>
             </li>
           </ul>
         </div>
         <Theme />
         <div className="navbar-end">
-          <a className="btn btn-accent">
+          <Link to="/cart" className="btn btn-accent">
             <CartWidget />
-          </a>
+          </Link>
         </div>
       </div>
     </>
