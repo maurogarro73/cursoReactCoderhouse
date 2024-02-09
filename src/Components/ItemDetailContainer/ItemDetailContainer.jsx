@@ -36,7 +36,7 @@ const ItemDetailContainer = () => {
           </div>
         </>
       ) : (
-        <div className="block">
+        <div className="block" style={{ height: '100%' }}>
           <h1 className="text-3xl font-bold text-center text-primary mb-5">Detalle del terreno</h1>
           <ItemDetail item={item} />
         </div>
