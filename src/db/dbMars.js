@@ -238,7 +238,7 @@ const DB_MARTERRA = [
     name: 'Isidis Planitia',
     descriptionLong: 'Una de las cuencas de impacto más grandes de Marte.',
     descriptionShort: 'Gran cuenca de impacto',
-    category: 'd',
+    category: 'crater',
     price: 480000,
     stock: 5,
     mainImg: '/img/terrenos/id19-main.png',
