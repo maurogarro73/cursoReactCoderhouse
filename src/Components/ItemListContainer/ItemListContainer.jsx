@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import loadinPlanet from '../../../public/img/planetWeb.gif';
+import loadinPlanet from '/img/planetWeb.gif';
 import { filterCategory, pedirDatos } from '../../db/dbMars.js';
 import ItemList from '../ItemList/ItemList.jsx';
 import { useParams } from 'react-router-dom';

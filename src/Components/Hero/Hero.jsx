@@ -1,6 +1,6 @@
 import React from 'react';
-import heroImg from '../../../public/img/Banner4.png';
-import imgBannerIn from '../../../public/img/imgSobreBanner.png';
+import heroImg from '/img/Banner4.png';
+import imgBannerIn from '/img/imgSobreBanner.png';
 import { FaSpaceShuttle } from 'react-icons/fa';
 const Hero = () => {
   const estiloFondo = {

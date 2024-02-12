@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import loadinPlanet from '../../../public/img/planetWeb.gif';
+import loadinPlanet from '/img/planetWeb.gif';
 import { getItem } from '../../db/dbMars';
 import ItemDetail from '../ItemDetail/ItemDetail';
 
